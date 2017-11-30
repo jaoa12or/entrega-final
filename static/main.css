@@ -1,0 +1,130 @@
+@import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
+
+
+ul {
+  clear: both;
+  float: left;
+  width: 100%;
+}
+
+ul {
+  clear: both;
+  float: left;
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+ul li {
+   float: left;
+}
+
+ul li a {
+  padding: .3em;
+  display: block;
+  text-decoration: none;
+  color: #333;
+  background: #F4F4F4;
+  border-top: 1px solid #7C7C7C;
+  border-right: 1px solid #7C7C7C;
+  border-bottom: 1px solid #9C9C9C;
+}
+
+#button li a {
+font-family: Arial;
+font-size:11px;
+text-decoration: none;
+float:left;
+width: 250px;
+height: 30px;
+font-size: 24px;
+margin-left: 40px;
+padding: 10px;
+text-align: center;
+background-color: #2175bc;
+color: #fff;
+}
+
+#button li a:hover {
+background-color: #2586d7;
+margin-top:-2px;
+padding-bottom:12px;
+}
+
+
+
+
+
+
+body{
+  background: black;
+}
+
+svg{
+  width: 100%;
+  height: 620px;
+  display: block;
+  position: relative;
+  overflow: hidden; 
+  margin: 0 auto;
+  background: black;
+}
+
+
+
+
+
+input {
+    float: left;
+    margin-top: 90px;
+    margin-left: 30%;
+    width: 300px;
+    height: 60px;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+button {
+    margin-top: 90px;
+    height: 60px;
+    margin-left: -5%;
+    width: 120px;
+    font-size: 20px;
+    font-family: Arial;
+
+}
+
+table {
+    
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: white;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 100px;
+
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    color: white;
+    border-color: red;
+}
+
+td, th {
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    padding: 8px;
+}
+
+.mensaje {
+    color: white;
+}

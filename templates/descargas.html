@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="An interactive getting started guide for Brackets.">
+    <link rel="stylesheet" href="/static/main.css">
+
+</head>
+
+<body>
+    <div>
+        <h1>Monitoring</h1>
+        <ul id="button">
+            <li><a href="/">Inicio</a> </li>
+            <li><a href="/monitoreo">Estado del pc</a> </li>
+            <li><a href="/descargas">Descargar</a></li>
+            <li><a href="/estado">Tus descargas</a></li>
+          
+
+        </ul>
+    </div>
+    <br>
+    <div class="form">
+        <form name="Send" action="/descargas" method="POST">
+            <label for="magnetlink">Magnetlink:</label>
+            <input type="text" name="magnetlink" >
+            <button class="button button1" type="submit" value="Descargar"> Descargar</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
